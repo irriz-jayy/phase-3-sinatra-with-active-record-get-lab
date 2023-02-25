@@ -1,3 +1,4 @@
 class Bakery < ActiveRecord::Base
-  # add association macro here
+  belongs_to :bakeries
+  has_many :baked_goods 
 end
